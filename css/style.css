@@ -27,12 +27,12 @@ body {
     align-items: center;
 }
 
-.header__wallper {
+.header__wrapper {
     display: flex;
     flex-direction: column;
     height: 200px;
-    width: 1250px;
-    background-image: url("/img/back-header.png");
+    width: 100%;
+    background-image: url("/img/back-header.jpg");
     background-position: top;
 }
 
@@ -73,32 +73,42 @@ body {
     justify-content: center;
 }
 
-.header__btn-back-call {
+/* btn */
+.btn-back-call {
     border-radius: 10px;
     background-color: #ff0000;
     color: #fff;
     font-weight: 100;
     border: 0;
-    width: 290px;
+    width: 200px;
+}
+
+.btn-back-call:hover {
+    background-color: #bd2d3b;
+}
+
+.btn-back-call a {
+    text-decoration: none;
+    color: #fff;
+}
+.btn-back-call--295 {
+    width: 295px;
     margin-left: 60px;
     margin-right: 10px;
 }
 
-.header__btn-back-call:hover {
-    background-color: #bd2d3b;
+.btn-back-call--580 {
+    width: 580px;
+    margin-top: 250px;
 }
 
-.header__btn-back-call a {
-    text-decoration: none;
-    color: #fff;
-}
-
-/*header__nav*/
+/* header__nav */
 .header__nav {
     display: flex;
     height: 90px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 0.9em;
 }
 
 .header__item-nav {
@@ -110,7 +120,7 @@ body {
     justify-content: center;
     color: #fff;
     text-decoration: none;
-    padding: 0.4em;
+    padding: 0.5em;
 }
 
 .header__item-nav--main {
@@ -127,3 +137,29 @@ body {
     box-shadow: 0 10px 20px rgba( 255, 0, 0, 0.3)
 }
 
+/* banner */
+.banner {
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    width: 100%;
+    max-width: 1920px;
+    background-image: url("/img/backgraund-banner.png");
+    background-color: #000;
+    background-position: top;
+    align-items: center;
+}
+
+
+.banner-logo h1 {
+    font-family: gothampro_regular;
+    font-size: 90px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.banner-logo h2 {
+    font-family: gothampro_regular;
+    font-size: 60px;
+    color: #fff;
+}

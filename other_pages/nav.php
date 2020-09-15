@@ -1,17 +1,17 @@
 <header class="header">
-        <div class="header__wallper">
+        <div class="header__wrapper">
             <div class="header__header">
                 <div class="header__column">
                     <div class="header__item header__logo">
-                        <a href="/other_pages/home.php"><img src="/img/body-logo.png" width="150px" height="100px" </img></a>
+                        <a href="/index.php"><img src="/img/body-logo.png" width="150px" height="100px" </img></a>
                     </div>
                 </div>
                 <div class="header__column header__column--right">
                     <div class="header__item header__phone">
                         <p>8 987 654 32 21</p>
                     </div>
-                    <button class="header__item header__btn-back-call">
-                        <a href="/other_pages/home.php">Обратный звонок</a>
+                    <button class="header__item btn-back-call btn-back-call--295">
+                        <a href="/index.php">Обратный звонок</a>
                     </button>
                 </div>
             </div>
@@ -21,7 +21,7 @@
 
                 <?php
                 $nav_items = [
-                'home' => '<a class="nav__home header__item-nav header__item-nav' . (($main == 'home') ? '--main' : '') . '" href="/other_pages/home.php" >
+                'home' => '<a class="nav__home header__item-nav header__item-nav' . (($main == 'home') ? '--main' : '') . '" href="/index.php" >
                     Главная
                 </a>',
 
