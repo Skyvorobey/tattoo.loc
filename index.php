@@ -34,6 +34,30 @@ include __DIR__. '/other_pages/banner.php'?>
             </button>
         </div>
     </div>
+
+    <div class="section-information">
+        <h3 class="section-information__title">Тату-салон Permanent Tatoo <br>
+            Нам Доверяет уже более 1000 человек </h3>
+
+        <h4 class="section-information__mini-title">Стерильное помещение</h4>
+        <p class="section-information__text">Все процедуры проводим в специально<br>
+            отведенном очищенном помещении,чтобы защитить вас от любых<br>
+            бактериальных заражении</p>
+
+        <h4 class="section-information__mini-title">Безболезненные процедуры</h4>
+        <p class="section-information__text">Для каждого человека все индивидиуально.<br>
+            Если у вас высокий болевой порог,то вы практически ни  чего не почувствуете.<br>
+            При очень низком болевом пороге,мы предложим вам анестезию,поэтому весь процесс<br>
+            пройдет для вас безболезненно. Для каждого человека все индивидиуально.</p>
+
+        <h4 class="section-information__mini-title">Удобное расположение тату-салона</h4>
+        <p class="section-information__text">Наша студия находится рядом с тремя станциями метро,<br>
+            поэтому вы легко сможете добраться до нас</p>
+
+        <h4 class="section-information__mini-title">Лицензия на проведение услуг.</h4>
+        <p class="section-information__text">Наша студия,а также все мастера прошли линцензирование на проводение медицинских действий. Вы можете <br>
+            быть уверены в репутации тату-салона,а самое главное в профессианализме мастеров/p>
+    </div>
 </section>
 
 <?php include __DIR__. '/other_pages/footer.php'; ?>

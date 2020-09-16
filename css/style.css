@@ -220,3 +220,52 @@ body {
     font-size: 28px;
     font-weight: 100;
 }
+
+/*section-information*/
+.section-information {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    width: 100%;
+    background-image: url("/img/back-information.png");
+    background-color: #fefbfb;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 99%;
+}
+
+.section-information h3 {
+    margin: 0;
+    margin-top: 75px;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+.section-information h4 {
+    margin: 0;
+    margin-top: 75px;
+}
+
+.section-information p {
+    margin: 0;
+    margin-top: 50px;
+    line-height: 25px;
+}
+
+.section-information__title {
+    font-family: gothampro_regular;
+    font-size: 37px;
+    color: #000;
+}
+
+.section-information__mini-title {
+    font-family: gothampro_regular;
+    font-size: 30px;
+    color: #000;
+}
+
+.section-information__text {
+    font-family: gothampro_regular;
+    font-size: 20px;
+    color: #000;
+}
