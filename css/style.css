@@ -90,6 +90,7 @@ body {
 .btn-back-call a {
     text-decoration: none;
     color: #fff;
+    font-size: 28px;
 }
 .btn-back-call--295 {
     width: 295px;
@@ -100,6 +101,10 @@ body {
 .btn-back-call--580 {
     width: 580px;
     margin-top: 250px;
+}
+
+.btn-back-call--top65 {
+    margin-top: 65px;
 }
 
 /* header__nav */
@@ -156,10 +161,62 @@ body {
     font-size: 90px;
     color: #fff;
     text-transform: capitalize;
+    margin-top: 90px;
 }
 
 .banner-logo h2 {
     font-family: gothampro_regular;
     font-size: 60px;
     color: #fff;
+}
+
+/*section-about*/
+.section-about {
+    height: 1840px;
+    width: 100%;
+}
+
+/*section-services*/
+.section-services {
+    display: flex;
+    height: 640px;
+    width: 100%;
+    background-image: url("/img/back-cicada.png");
+    background-color: #fafafa;
+    background-position: center;
+    justify-content: space-between;
+}
+
+.section-services__item {
+    margin: 5px;
+    margin-top: 90px;
+}
+
+.section-services__logo {
+    width: 250px;
+    height: 250px;
+    background-color: #000;
+}
+
+.section-services__logo--back1 {
+    background-color: #3f1b1b;
+}
+
+.section-services__logo--back2 {
+    background-color: #731c1c;
+}
+
+.section-services__logo--back3 {
+    background-color: #b94c4c;
+}
+
+.section-services__logo--back4 {
+    background-color: #b94c4c;
+}
+
+.section-services__name {
+    margin: 0;
+    margin-top: 55px;
+    font-size: 28px;
+    font-weight: 100;
 }
