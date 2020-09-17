@@ -58,6 +58,20 @@ include __DIR__. '/other_pages/banner.php'?>
         <p class="section-information__text">Наша студия,а также все мастера прошли линцензирование на проводение медицинских действий. Вы можете <br>
             быть уверены в репутации тату-салона,а самое главное в профессианализме мастеров/p>
     </div>
+
+    <div class="section-action">
+        <div class="section-action__background">
+            <div class="section-action__header section-action__header--right">
+                <h1>Акция для</h1>
+                <h2>Девушек</h2>
+                <p>на любые татуировки</p>
+            </div>
+            <form method="get" action="section-action__form" class="section-action__form">
+                <input maxlength="25"name="name" placeholder="Ваше имя" class="section-action__form-name">
+                <input type="submit" value="Заказать обратный звонок" class="section-action__form-btn">
+            </form>
+        </div>
+    </div>
 </section>
 
 <?php include __DIR__. '/other_pages/footer.php'; ?>

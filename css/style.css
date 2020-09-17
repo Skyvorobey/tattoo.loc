@@ -269,3 +269,97 @@ body {
     font-size: 20px;
     color: #000;
 }
+
+/*section-action*/
+.section-action {
+    display:flex;
+    height: 400px;
+    width: 100%;
+    background-image: url("/img/back-action.png");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-action__background {
+    display: flex;
+    height: 300px;
+    width: 1250px;
+    background-image: url("/img/back-girl.png");
+    background-color: #030201;
+    background-position: left;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+}
+
+.section-action__header {
+    font-family: gothampro_regular;
+    width: 100%;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-action__header--right {
+    margin-left: 35em;
+}
+
+.section-action__header h1 {
+    margin: 0;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 40px;
+}
+
+.section-action__header h2 {
+    margin: 0;
+    font-size: 40px;
+    color: #ff0000;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 15px;
+}
+
+.section-action__header p {
+    margin: 0;
+    font-size: 24px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+.section-action__form {
+    display: flex;
+    height: 145px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-action__form-name {
+    width: 435px;
+    height: 60px;
+    border-radius: 10px;
+    border: 0;
+    font-family: gothampro_regular;
+    font-size: 28px;
+    font-weight: 900;
+    color: #000;
+    margin: 20px;
+}
+
+.section-action__form-btn {
+    width: 435px;
+    height: 60px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #ff0000;
+    font-family: gothampro_regular;
+    font-size: 28px;
+    font-weight: 900;
+    color: #fff;
+    margin: 20px;
+}
