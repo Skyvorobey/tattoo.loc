@@ -113,6 +113,48 @@ include __DIR__. '/other_pages/banner.php'?>
             </div>
         </div>
     </div>
+
+    <div class="section-our-last-works">
+        <h1 class="section-our-last-works__title">Наши последнии работы</h1>
+        <div class="section-our-last-works__img"></div>
+    </div>
+
+    <div class="section-us-masters">
+        <h1 class="section-us-masters__header">Наши мастера</h1>
+
+        <div class="section-us-masters__items">
+            <div class="section-us-masters__item">
+                <div class="section-us-masters__img section-us-masters__img--master-1"></div>
+                <h1 class="section-us-masters__title">Елизавета Петровна</h1>
+                <p class="section-us-masters__text">Лучший мастер<br>
+                    по пирсингу<br>
+                    во всей Москве</p>
+            </div>
+            <div class="section-us-masters__item">
+                <div class="section-us-masters__img section-us-masters__img--master-2"></div>
+                <h1 class="section-us-masters__title">Александра Федоровна</h1>
+                <p class="section-us-masters__text">Обоятельный и <br>
+                    очаровательный<br>
+                    мастер по татуажу<br>
+                    во всем нашем<br>
+                    коллективе</p>
+            </div>
+            <div class="section-us-masters__item">
+                <div class="section-us-masters__img section-us-masters__img--master-3"></div>
+                <h1 class="section-us-masters__title">Елена Павловна</h1>
+                <p class="section-us-masters__text">Матерый мастер<br>
+                    по татуажу<br>
+                    с опытом - 20 лет</p>
+            </div>
+            <div class="section-us-masters__item">
+                <div class="section-us-masters__img section-us-masters__img--master-4"></div>
+                <h1 class="section-us-masters__title">Мария Николаевна</h1>
+                <p class="section-us-masters__text">Художник и мастер<br>
+                    фантастических эскизов<br>
+                    для татуажа</p>
+            </div>
+        </div>
+    </div>
 </section>
 
 <?php include __DIR__. '/other_pages/footer.php'; ?>
