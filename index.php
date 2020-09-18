@@ -72,6 +72,47 @@ include __DIR__. '/other_pages/banner.php'?>
             </form>
         </div>
     </div>
+
+    <div class="section-we-also-do">
+        <h1 class="section-we-also-do__header">Мы также делаем</h1>
+
+        <div class="section-we-also-do__items">
+            <div class="section-services__item section-we-also-do__item ">
+                <div class="section-services__logo section-services__logo--back1"></div>
+                <h1 class="section-we-also-do__title">Обновление<br> тату</h1>
+                <p class="section-we-also-do__text">Подойдет вам,<br>
+                    если вы хотите вернуть вашей<br>
+                    татуировке<br>
+                    цвета и яркость</p>
+            </div>
+            <div class="section-services__item section-we-also-do__item">
+                <div class="section-services__logo section-services__logo--back2"></div>
+                <h1 class="section-we-also-do__title">Реставрация<br> тату</h1>
+                <p class="section-we-also-do__text">Подойдет вам,<br>
+                    если вы хотите вернуть вашей<br>
+                    татуировке былую<br>
+                    красоту,восстановить старые<br>
+                    участки</p>
+            </div>
+            <div class="section-services__item section-we-also-do__item">
+                <div class="section-services__logo section-services__logo--back3"></div>
+                <h1 class="section-we-also-do__title">Перекрытие<br> тату</h1>
+                <p class="section-we-also-do__text">Подойдет вам,<br>
+                    если вы уже сделали<br>
+                    татуировку, но она вам <br>
+                    надоела, потеряла <br>
+                    актуальность и вы хотите ее<br>
+                    видоизменить</p>
+            </div>
+            <div class="section-services__item section-we-also-do__item">
+                <div class="section-services__logo section-services__logo--back4"></div>
+                <h1 class="section-we-also-do__title">Удаление<br> тату</h1>
+                <p class="section-we-also-do__text">Подойдет вам,<br>
+                    если вы решили навсегда<br>
+                    избавиться от татуировкиь</p>
+            </div>
+        </div>
+    </div>
 </section>
 
 <?php include __DIR__. '/other_pages/footer.php'; ?>

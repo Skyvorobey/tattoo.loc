@@ -211,7 +211,7 @@ body {
 }
 
 .section-services__logo--back4 {
-    background-color: #b94c4c;
+    background-color: #c44646;
 }
 
 .section-services__name {
@@ -362,4 +362,54 @@ body {
     font-weight: 900;
     color: #fff;
     margin: 20px;
+}
+
+/*section-we-also-do*/
+.section-we-also-do {
+    width: 100%;
+    height: 670px;
+    background-image: url("/img/back-we-also-do.png");
+    background-color: #030201;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-we-also-do__header {
+    margin: 0;
+    color: #fff;
+    margin-top: 50px;
+    font-family: gothampro_regular;
+    font-size: 38px;
+}
+
+.section-we-also-do__items {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+}
+
+.section-we-also-do__item {
+    margin-top: 35px;
+}
+
+.section-services__item h1 {
+    font-family: gothampro_regular;
+    margin: 0;
+    font-size: 37px;
+    color: #fff;
+    font-weight: 900;
+    margin-top: 10px;
+    line-height: 50px;
+}
+
+.section-services__item p {
+    font-family: gothampro_regular;
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 10px;
 }
