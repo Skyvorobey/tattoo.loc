@@ -155,6 +155,39 @@ include __DIR__. '/other_pages/banner.php'?>
             </div>
         </div>
     </div>
+
+    <div class="section-us-reviews">
+        <h1 class="section-us-reviews__header">Наши отзывы</h1>
+
+        <div class="section-us-reviews__items">
+            <div class="section-us-reviews__item">
+                <div class="section-us-reviews__img section-us-reviews__img--face1"></div>
+                <div class="section-us-reviews__name">Екатерина Самокрутова</div>
+                <div class="section-us-reviews__age">27 лет</div>
+                <p class="section-us-reviews__text">Татуировки - просто огонь! Мастер<br>
+                    постарался на славу. Как только<br>
+                    показал татухи друзьям, то все сразу же <br>
+                    обзавидовались и стали спрашивать,<br>
+                    где и у кого сделал. Скоро у салона<br>
+                    «Permanent Tattooing» появятся<br>
+                    новые клиенты. Спасибо вам, ребята! ))</p>
+            </div>
+            <div class="section-us-reviews__item">
+                <div class="section-us-reviews__img section-us-reviews__img--face2"></div>
+                <div class="section-us-reviews__name">Мария Литун</div>
+                <div class="section-us-reviews__age">35 лет</div>
+                <p class="section-us-reviews__text">Результат превзошёл ожидания!<br>
+                    Стоимость услуги не более обговоренной<br>
+                    ранее. Мастер проявил максимум внимания<br>
+                    и создал все условия,чтоб процедура<br>
+                    принесла положительные эмоции.<br>
+                    Рекомендую всем, приятный и<br>
+                    адекватный в общении человек,<br>
+                    настоящий профессионал<br>
+                    в своей области деятельности.</p>
+            </div>
+        </div>
+    </div>
 </section>
 
 <?php include __DIR__. '/other_pages/footer.php'; ?>
