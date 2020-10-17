@@ -3,7 +3,7 @@ $main = 'home';
 include __DIR__. '/other_pages/head.php';
 include __DIR__. '/other_pages/nav.php';
 include __DIR__. '/other_pages/banner.php'?>
-<section class="section-about">
+<section class="section-main">
     <div class="section-services">
         <div class="section-services__item">
             <div class="section-services__logo section-services__logo--back1"></div>
@@ -36,7 +36,7 @@ include __DIR__. '/other_pages/banner.php'?>
     </div>
 
     <div class="section-information">
-        <h3 class="section-information__title">Тату-салон Permanent Tatoo <br>
+        <h3 class="section-information__title">Тату-салон Permanent Tattoo <br>
             Нам Доверяет уже более 1000 человек </h3>
 
         <h4 class="section-information__mini-title">Стерильное помещение</h4>
@@ -188,6 +188,38 @@ include __DIR__. '/other_pages/banner.php'?>
             </div>
         </div>
     </div>
+
+    <div class="section-us-certificates">
+        <h1 class="section-us-certificates--title">Наши сертификаты</h1>
+            <div class="section-us-certificates--items">
+                <div class="section-us-certificates--item" >
+                    <img src="img/body-logo.png" style="width: 180px; height: 100px">
+                </div>
+                <div class="section-us-certificates--item">
+                    <img src="img/body-logo.png" style="width: 180px; height: 100px">
+                </div>
+            </div
+    </div>
+    </div>
+
+    <div class="section-action">
+        <div class="section-action__background">
+            <div class="section-action__header section-action__header--right">
+                <h1>Акция для</h1>
+                <h2>Девушек</h2>
+                <p>на любые татуировки</p>
+            </div>
+            <form method="get" action="section-action__form" class="section-action__form">
+                <input maxlength="25"name="name" placeholder="Ваше имя" class="section-action__form-name">
+                <input type="submit" value="Заказать обратный звонок" class="section-action__form-btn">
+            </form>
+        </div>
+    </div>
+
+    <div class="section-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.617030487301!2d37.61502481040166!3d55.75277265062644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a50b315e573%3A0xa886bf5a3d9b2e68!2z0JzQvtGB0LrQvtCy0YHQutC40Lkg0JrRgNC10LzQu9GM!5e0!3m2!1sru!2sru!4v1602946773156!5m2!1sru!2sru" width="500" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="section-map__item"></iframe>
+    </div>
+
 </section>
 
 <?php include __DIR__. '/other_pages/footer.php'; ?>
